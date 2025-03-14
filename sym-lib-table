@@ -1,5 +1,6 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "cantact-rescue")(type "Legacy")(uri "${KIPRJMOD}/cantact-rescue.lib")(options "")(descr ""))
   (lib (name "cantact")(type "Legacy")(uri "${KIPRJMOD}/cantact.lib")(options "")(descr ""))
+  (lib (name "cantact_ec")(type "KiCad")(uri "${KIPRJMOD}/library.pretty/cantact_ec.kicad_sym")(options "")(descr ""))
 )
