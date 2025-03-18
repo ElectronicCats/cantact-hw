@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.68,
-          "width": 1.27
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,8 +51,95 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|130520000|145050000|067520f9-3732-4560-aad2-3983c6105469|d3c23d59-3a47-4375-9fc6-49afe0a28fd2",
+          ""
+        ],
+        [
+          "clearance|130520000|145050000|2ebdd337-c792-4f6e-97c0-305ef080d086|067520f9-3732-4560-aad2-3983c6105469",
+          ""
+        ],
+        [
+          "clearance|131320000|145050000|d3c23d59-3a47-4375-9fc6-49afe0a28fd2|794dfeb7-6228-471e-b799-9a7676be1735",
+          ""
+        ],
+        [
+          "clearance|131520000|144412600|794dfeb7-6228-471e-b799-9a7676be1735|bfbe7d6a-7a92-44dd-977c-a7dfb8770c39",
+          ""
+        ],
+        [
+          "clearance|131520000|145050000|794dfeb7-6228-471e-b799-9a7676be1735|917f518f-6e16-4c70-8186-631200ad1e05",
+          ""
+        ],
+        [
+          "clearance|132020000|145050000|2f499db1-fc7e-4201-8bc4-97b5d144b706|794dfeb7-6228-471e-b799-9a7676be1735",
+          ""
+        ],
+        [
+          "clearance|132320000|145050000|2f499db1-fc7e-4201-8bc4-97b5d144b706|1734c35d-654e-4284-8544-c64b0ddd2054",
+          ""
+        ],
+        [
+          "clearance|133020000|145050000|7be23b83-5c77-4c41-ab95-dc91062ccc43|1734c35d-654e-4284-8544-c64b0ddd2054",
+          ""
+        ],
+        [
+          "clearance|133320000|145050000|7be23b83-5c77-4c41-ab95-dc91062ccc43|0412fedb-ae62-4087-ac46-e9db6f65b4c0",
+          ""
+        ],
+        [
+          "clearance|134020000|145050000|1291f9a2-ac37-40fb-993a-e355385d7b85|0412fedb-ae62-4087-ac46-e9db6f65b4c0",
+          ""
+        ],
+        [
+          "clearance|134320000|145050000|1291f9a2-ac37-40fb-993a-e355385d7b85|c90908e9-ff9b-496e-bde0-f711b83fc5d6",
+          ""
+        ],
+        [
+          "clearance|135020000|145050000|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784|c90908e9-ff9b-496e-bde0-f711b83fc5d6",
+          ""
+        ],
+        [
+          "clearance|135320000|144412600|299aad33-4c1b-4c12-a78c-be9ec7f55bde|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784",
+          ""
+        ],
+        [
+          "clearance|135320000|145050000|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784|df693503-9c1a-47f1-bde8-cbe0f708814d",
+          ""
+        ],
+        [
+          "clearance|135520000|145050000|a93e83e6-e07d-4da5-95aa-ad7383f069a2|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784",
+          ""
+        ],
+        [
+          "clearance|135632400|146284163|1ecea0ce-d979-4017-82a0-643869f21562|df693503-9c1a-47f1-bde8-cbe0f708814d",
+          ""
+        ],
+        [
+          "clearance|136320000|145050000|4c94faa5-033b-4055-9b69-7e6f662ea08a|c4e90a37-673f-4fec-8442-29179c5d25bf",
+          ""
+        ],
+        [
+          "clearance|136320000|145050000|c4e90a37-673f-4fec-8442-29179c5d25bf|a93e83e6-e07d-4da5-95aa-ad7383f069a2",
+          ""
+        ],
+        [
+          "hole_clearance|130720000|145050000|2ebdd337-c792-4f6e-97c0-305ef080d086|d3c23d59-3a47-4375-9fc6-49afe0a28fd2",
+          ""
+        ],
+        [
+          "hole_clearance|136120000|145050000|4c94faa5-033b-4055-9b69-7e6f662ea08a|a93e83e6-e07d-4da5-95aa-ad7383f069a2",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -119,20 +206,20 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.05,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.508,
-        "min_microvia_drill": 0.127,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.508,
-        "min_track_width": 0.2032,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.889,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +267,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +296,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -466,7 +560,7 @@
         "microvia_drill": 0.127,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
         "via_diameter": 0.889,
@@ -477,14 +571,13 @@
         "bus_width": 12,
         "clearance": 0.5,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 6.5,
         "microvia_drill": 3.5,
         "name": "Mounting Hole",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
         "via_diameter": 6.5,
@@ -776,21 +869,33 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "LCSC#",
+          "name": "LCSC#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -803,25 +908,19 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -833,18 +932,12 @@
           "group_by": false,
           "label": "manf#",
           "name": "manf#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "provedor",
           "name": "provedor",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC#",
-          "name": "LCSC#",
           "show": false
         },
         {
@@ -860,12 +953,12 @@
           "show": false
         }
       ],
-      "filter_string": "U2",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
