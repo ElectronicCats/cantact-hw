@@ -5,7 +5,7 @@
 	(uuid "2550f002-d348-4526-bc52-f9a1d613dc79")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,14 +14,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,9 +74,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -84,6 +84,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -109,7 +120,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -127,7 +138,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -137,6 +148,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2120,23 +2149,53 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 31.75) (xy 58.42 31.75)
+			(xy 52.07 34.29) (xy 58.42 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5432066b-ff56-473a-8484-de05308929d1")
+		(uuid "7af757f3-8bd6-4706-be13-d35d98079aa9")
 	)
 	(wire
 		(pts
-			(xy 43.18 34.29) (xy 58.42 34.29)
+			(xy 29.21 34.29) (xy 34.29 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f7fec7d-f561-493b-836c-63fcc96db5aa")
+		(uuid "9a3448cb-9852-423a-8717-dda39b038ec7")
+	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee94263b-1733-48f7-8d33-fbaf4eed73e1")
+	)
+	(wire
+		(pts
+			(xy 29.21 29.21) (xy 34.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f972e0d4-ff15-4ae9-a08c-c9e4f09b25b8")
+	)
+	(wire
+		(pts
+			(xy 29.21 31.75) (xy 34.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd029711-0e44-4a47-975e-52256ba062ce")
 	)
 	(label "CANL"
 		(at 52.07 34.29 180)
@@ -2147,6 +2206,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a6e684b-c4ec-4227-ae19-ccbd461063ce")
+	)
+	(label "GND"
+		(at 34.29 29.21 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "479d7340-ea80-4cb5-8de3-dcbb355ebd19")
 	)
 	(label "CANH"
 		(at 52.07 31.75 180)
@@ -2167,6 +2236,26 @@
 			(justify right bottom)
 		)
 		(uuid "a8d23511-1b0a-4e8e-9423-035bc809b4b1")
+	)
+	(label "CANL"
+		(at 34.29 31.75 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9ddd1e6-8843-4962-86c1-e26f7a0c35cf")
+	)
+	(label "CANH"
+		(at 34.29 34.29 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec312f6e-7b9d-4966-a85e-712af97b91c5")
 	)
 	(symbol
 		(lib_name "GND_27")
@@ -2250,7 +2339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Cantact"
+		(property "Value" "RJ45"
 			(at 72.39 39.3699 0)
 			(effects
 				(font
@@ -2269,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "R-RJ45R08P-C000"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411121108_Ckmtw-Shenzhen-Cankemeng-R-RJ45R08P-C000_C386757.pdf"
 			(at 56.896 18.796 0)
 			(effects
 				(font
@@ -2304,6 +2393,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "#MANUF" "R-RJ45R08P-C000"
+			(at 66.04 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2352,33 +2449,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 38.1 34.29 180)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 24.13 31.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a4d87f0-24a7-4312-af64-87cd4a17819c")
-		(property "Reference" "J2"
-			(at 38.1 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 38.1 34.29 0)
+		(uuid "c6a96c65-ea65-495f-a712-c333b4114636")
+		(property "Reference" "J3"
+			(at 24.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,8 +2467,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 38.1 34.29 0)
+		(property "Value" "Conn_01x03"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,8 +2484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 34.29 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PZ254R-11-03P_C492411.pdf"
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,8 +2493,17 @@
 				(hide yes)
 			)
 		)
-		(property "#MANUF" ""
-			(at 38.1 34.29 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#MANUF" "PZ254R-11-03P"
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2512,7 @@
 			)
 		)
 		(property "PROVEEDOR" ""
-			(at 38.1 34.29 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,16 +2520,27 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C492411"
+			(at 24.13 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "e58b8946-e78c-4a34-b449-b8d880ae1bd0")
+			(uuid "ea30e25d-44cf-4039-8a80-96f9c2bd2199")
 		)
 		(pin "1"
-			(uuid "b66ff2d8-7fa4-4ed1-8d12-be5994ad3ae2")
+			(uuid "eb7374fa-70c9-40d0-88b3-03b3b1eca532")
+		)
+		(pin "3"
+			(uuid "02c5b3df-b444-4b25-b955-838f43d20dea")
 		)
 		(instances
 			(project "OBDII_RJ45"
 				(path "/2550f002-d348-4526-bc52-f9a1d613dc79"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
