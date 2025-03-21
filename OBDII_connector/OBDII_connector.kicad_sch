@@ -1155,6 +1155,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e7ad256e-18dd-4781-aa33-fbb8f8e85fd0")
 		)
@@ -1219,7 +1227,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a96c65-ea65-495f-a712-c333b4114636")
 		(property "Reference" "J3"
@@ -1248,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302300_XFCN-PM254V-11-03-H85_C541850.pdf"
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -1266,7 +1274,7 @@
 				(hide yes)
 			)
 		)
-		(property "#MANUF" ""
+		(property "#MANUF" "PM254V-11-03-H85"
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -1282,6 +1290,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC#" "C541850"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
