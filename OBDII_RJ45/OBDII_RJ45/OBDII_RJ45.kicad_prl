@@ -48,17 +48,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffcffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "OBDII_connector.kicad_prl",
+    "filename": "OBDII_RJ45.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +86,16 @@
       9
     ],
     "col_widths": [
-      460,
-      436,
-      270,
-      188,
-      270,
-      270,
-      270,
-      198,
-      270,
-      270
+      162,
+      147,
+      91,
+      102,
+      97,
+      107,
+      108,
+      107,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

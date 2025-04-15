@@ -2386,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "R-RJ45R08P-C000"
+		(property "manf#" ""
 			(at 68.834 20.32 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "#MANUF" "R-RJ45R08P-C000"
+		(property "#MANUF" ""
 			(at 66.04 19.812 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				(hide yes)
 			)
 		)
-		(property "#MANUF" "PZ254R-11-03P"
+		(property "#MANUF" ""
 			(at 24.13 31.75 0)
 			(effects
 				(font
@@ -2526,6 +2526,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

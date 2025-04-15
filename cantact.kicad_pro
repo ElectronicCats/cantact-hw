@@ -941,6 +941,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufactura",
+          "name": "Manufactura",
+          "show": false
         }
       ],
       "filter_string": "",

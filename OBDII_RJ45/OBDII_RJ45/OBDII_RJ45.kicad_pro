@@ -575,7 +575,7 @@
           "group_by": false,
           "label": "#MANUF",
           "name": "#MANUF",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -600,8 +600,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Datasheet"
+      "sort_asc": true,
+      "sort_field": "#MANUF"
     },
     "connection_grid_size": 50.0,
     "drawing": {
