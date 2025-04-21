@@ -2096,12 +2096,20 @@
 		(uuid "02384c13-7f42-4fb4-88a2-ef18c4765748")
 	)
 	(no_connect
-		(at 58.42 36.83)
-		(uuid "33dbf076-4f69-4278-a6d0-e0087924c351")
+		(at 58.42 31.75)
+		(uuid "1e74bae4-0ec8-427c-80db-20c1e12b379c")
 	)
 	(no_connect
-		(at 58.42 24.13)
-		(uuid "48d62cd6-15d7-4986-abba-cc3aa4af0b45")
+		(at 58.42 34.29)
+		(uuid "2551ce78-f446-4f9a-ad51-2bf0843894fb")
+	)
+	(no_connect
+		(at 58.42 39.37)
+		(uuid "2d6d1ad4-2bf1-4cf8-ab0a-32dc0d3cdded")
+	)
+	(no_connect
+		(at 58.42 36.83)
+		(uuid "33dbf076-4f69-4278-a6d0-e0087924c351")
 	)
 	(no_connect
 		(at 58.42 49.53)
@@ -2112,16 +2120,8 @@
 		(uuid "63f4ce16-7c2a-47a0-8876-ed9fa3fb1377")
 	)
 	(no_connect
-		(at 58.42 26.67)
-		(uuid "926970d8-e2da-4ea0-9bda-da884b645daf")
-	)
-	(no_connect
 		(at 58.42 52.07)
 		(uuid "a8e9aace-890a-46ae-8ab6-293f735f9313")
-	)
-	(no_connect
-		(at 58.42 29.21)
-		(uuid "bd8d4cdf-12f7-42eb-9b4e-78dbdb0f66d0")
 	)
 	(no_connect
 		(at 58.42 44.45)
@@ -2129,33 +2129,43 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 58.42 39.37)
+			(xy 54.61 38.1) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42adb9ae-14d7-4c32-8752-407f30eeb3d4")
+		(uuid "07dbad7c-0bd7-4690-9b27-71ce7668d1da")
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 52.07 49.53)
+			(xy 40.64 29.21) (xy 40.64 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a41b45f-863e-4ce2-a435-dfb28e8ca710")
+		(uuid "2be383b1-8c02-44fe-982d-13e89267a04f")
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 58.42 34.29)
+			(xy 54.61 24.13) (xy 58.42 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7af757f3-8bd6-4706-be13-d35d98079aa9")
+		(uuid "7bd20ba4-022d-4851-ba33-cf1cac6bde30")
+	)
+	(wire
+		(pts
+			(xy 54.61 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ddf875-64b3-4dcd-9a33-5ad3f0dc1f9e")
 	)
 	(wire
 		(pts
@@ -2169,17 +2179,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 58.42 31.75)
+			(xy 54.61 29.21) (xy 58.42 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee94263b-1733-48f7-8d33-fbaf4eed73e1")
+		(uuid "dca853db-dc5f-4f1b-816f-2ad06d306d04")
 	)
 	(wire
 		(pts
-			(xy 29.21 29.21) (xy 34.29 29.21)
+			(xy 29.21 29.21) (xy 40.64 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2197,8 +2207,18 @@
 		)
 		(uuid "fd029711-0e44-4a47-975e-52256ba062ce")
 	)
-	(label "CANL"
-		(at 52.07 34.29 180)
+	(label "CAN+"
+		(at 34.29 34.29 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "04fb5a25-40c3-495e-be8f-a01bf3c9f1fd")
+	)
+	(label "CAN-"
+		(at 54.61 26.67 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2207,18 +2227,18 @@
 		)
 		(uuid "3a6e684b-c4ec-4227-ae19-ccbd461063ce")
 	)
-	(label "GND"
-		(at 34.29 29.21 0)
+	(label "CAN-"
+		(at 34.29 31.75 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify left bottom)
 		)
-		(uuid "479d7340-ea80-4cb5-8de3-dcbb355ebd19")
+		(uuid "73df616f-b0d5-44a0-874a-6db3eff03712")
 	)
-	(label "CANH"
-		(at 52.07 31.75 180)
+	(label "CAN+"
+		(at 54.61 24.13 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2227,40 +2247,10 @@
 		)
 		(uuid "a4942616-bd96-4760-b5ce-a0e9078e4334")
 	)
-	(label "GND"
-		(at 52.07 39.37 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8d23511-1b0a-4e8e-9423-035bc809b4b1")
-	)
-	(label "CANL"
-		(at 34.29 31.75 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9ddd1e6-8843-4962-86c1-e26f7a0c35cf")
-	)
-	(label "CANH"
-		(at 34.29 34.29 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec312f6e-7b9d-4966-a85e-712af97b91c5")
-	)
 	(symbol
 		(lib_name "GND_27")
 		(lib_id "cantact-rescue:GND")
-		(at 52.07 49.53 0)
+		(at 54.61 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2268,7 +2258,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000054730dc6")
 		(property "Reference" "#PWR023"
-			(at 52.07 49.53 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2277,7 +2267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 51.308 0)
+			(at 54.61 39.878 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2286,7 +2276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 49.53 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2294,7 +2284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 49.53 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2302,7 +2292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 49.53 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,6 +2433,70 @@
 			(project "OBDII_RJ45"
 				(path "/2550f002-d348-4526-bc52-f9a1d613dc79"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_27")
+		(lib_id "cantact-rescue:GND")
+		(at 40.64 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896fa6b8-7a5a-41f1-846d-a4dfa54c33a8")
+		(property "Reference" "#PWR024"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 38.608 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce0d04b8-2b40-4530-a3a7-d11324a61eee")
+		)
+		(instances
+			(project "OBDII_RJ45"
+				(path "/2550f002-d348-4526-bc52-f9a1d613dc79"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
