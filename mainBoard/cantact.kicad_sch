@@ -24745,7 +24745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C217366"
+		(property "LCSC#" "C2907179"
 			(at 77.47 161.29 0)
 			(effects
 				(font
@@ -25039,7 +25039,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C393939."
+		(property "LCSC#" "C393939"
 			(at 31.75 52.07 0)
 			(effects
 				(font
@@ -25690,7 +25690,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C191782"
+		(property "LCSC#" "C227511"
 			(at 86.868 34.29 0)
 			(effects
 				(font
@@ -26491,7 +26491,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C191782"
+		(property "LCSC#" "C227511"
 			(at 86.868 36.83 0)
 			(effects
 				(font

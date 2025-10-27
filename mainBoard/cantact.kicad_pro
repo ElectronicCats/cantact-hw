@@ -58,68 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|130520000|145050000|067520f9-3732-4560-aad2-3983c6105469|d3c23d59-3a47-4375-9fc6-49afe0a28fd2",
-          ""
-        ],
-        [
-          "clearance|130520000|145050000|2ebdd337-c792-4f6e-97c0-305ef080d086|067520f9-3732-4560-aad2-3983c6105469",
-          ""
-        ],
-        [
-          "clearance|131320000|145050000|d3c23d59-3a47-4375-9fc6-49afe0a28fd2|794dfeb7-6228-471e-b799-9a7676be1735",
-          ""
-        ],
-        [
-          "clearance|132020000|145050000|2f499db1-fc7e-4201-8bc4-97b5d144b706|794dfeb7-6228-471e-b799-9a7676be1735",
-          ""
-        ],
-        [
-          "clearance|132320000|145050000|2f499db1-fc7e-4201-8bc4-97b5d144b706|1734c35d-654e-4284-8544-c64b0ddd2054",
-          ""
-        ],
-        [
-          "clearance|133020000|145050000|7be23b83-5c77-4c41-ab95-dc91062ccc43|1734c35d-654e-4284-8544-c64b0ddd2054",
-          ""
-        ],
-        [
-          "clearance|133320000|145050000|7be23b83-5c77-4c41-ab95-dc91062ccc43|0412fedb-ae62-4087-ac46-e9db6f65b4c0",
-          ""
-        ],
-        [
-          "clearance|134020000|145050000|1291f9a2-ac37-40fb-993a-e355385d7b85|0412fedb-ae62-4087-ac46-e9db6f65b4c0",
-          ""
-        ],
-        [
-          "clearance|134320000|145050000|1291f9a2-ac37-40fb-993a-e355385d7b85|c90908e9-ff9b-496e-bde0-f711b83fc5d6",
-          ""
-        ],
-        [
-          "clearance|135020000|145050000|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784|c90908e9-ff9b-496e-bde0-f711b83fc5d6",
-          ""
-        ],
-        [
-          "clearance|135520000|145050000|a93e83e6-e07d-4da5-95aa-ad7383f069a2|9c407f9f-2a2d-4e9f-8cfd-64e1d26c1784",
-          ""
-        ],
-        [
-          "clearance|136320000|145050000|4c94faa5-033b-4055-9b69-7e6f662ea08a|c4e90a37-673f-4fec-8442-29179c5d25bf",
-          ""
-        ],
-        [
-          "clearance|136320000|145050000|c4e90a37-673f-4fec-8442-29179c5d25bf|a93e83e6-e07d-4da5-95aa-ad7383f069a2",
-          ""
-        ],
-        [
-          "hole_clearance|130720000|145050000|2ebdd337-c792-4f6e-97c0-305ef080d086|d3c23d59-3a47-4375-9fc6-49afe0a28fd2",
-          ""
-        ],
-        [
-          "hole_clearance|136120000|145050000|4c94faa5-033b-4055-9b69-7e6f662ea08a|a93e83e6-e07d-4da5-95aa-ad7383f069a2",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -878,7 +817,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC#",
           "name": "LCSC#",
           "show": true
