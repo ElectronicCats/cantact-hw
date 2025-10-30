@@ -464,6 +464,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -772,7 +773,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber_cantact/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -826,13 +827,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -862,7 +863,7 @@
           "group_by": false,
           "label": "manf#",
           "name": "manf#",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -894,7 +895,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "${EXCLUDE_FROM_BOARD}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

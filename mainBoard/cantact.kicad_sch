@@ -23722,7 +23722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Packages:SOIC-8-N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -24411,7 +24411,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7501583"
+		(property "LCSC#" ""
 			(at 250.19 104.14 0)
 			(effects
 				(font
@@ -24892,7 +24892,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7501580"
+		(property "LCSC#" ""
 			(at 68.072 147.828 0)
 			(effects
 				(font
@@ -24996,7 +24996,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005473495a")
 		(property "Reference" "TP3"
 			(at 24.13 52.07 0)
@@ -25039,7 +25039,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C393939"
+		(property "LCSC#" ""
 			(at 31.75 52.07 0)
 			(effects
 				(font
@@ -25849,7 +25849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C393939"
+		(property "LCSC#" ""
 			(at 67.31 44.45 0)
 			(effects
 				(font
